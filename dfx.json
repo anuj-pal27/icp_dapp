@@ -1,13 +1,13 @@
 {
   "canisters": {
-    "icp_wallet_backend": {
+    "icp_wallet": {
       "candid": "src/icp_wallet_backend/icp_wallet_backend.did",
       "package": "icp_wallet_backend",
       "type": "rust"
     },
     "icp_wallet_frontend": {
       "dependencies": [
-        "icp_wallet_backend"
+        "icp_wallet"
       ],
       "source": [
         "src/icp_wallet_frontend/dist"

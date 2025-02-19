@@ -46,7 +46,7 @@ at any time. This is recommended before starting the frontend development server
 If you are making frontend changes, you can start a development server with
 
 ```bash
-npm start
+npm run start
 ```
 
 Which will start a server at `http://localhost:8080`, proxying API requests to the replica at port 4943.
