@@ -45,7 +45,10 @@ at any time. This is recommended before starting the frontend development server
 
 If you are making frontend changes, you can start a development server with
 
-```bash
+### 3️⃣ Start the Frontend
+Navigate to the frontend directory:
+```sh
+cd src/icp_wallet_frontend
 npm run start
 ```
 
